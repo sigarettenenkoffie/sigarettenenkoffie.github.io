@@ -1,9 +1,22 @@
 body {
-    background-color: red;
+    background-color: black !important;
 }
 
 h1 {
     font-size: 6em;
-    color: green;
+    color: grey;
     text-align: center;
+}
+
+
+
+.inner {
+    margin: 0 auto;
+    max-width: 1040px;
+    width: 100%;
+}
+
+.outer {
+    position: relative;
+    padding: 0 4vw;
 }
