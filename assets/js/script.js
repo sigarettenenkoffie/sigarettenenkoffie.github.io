@@ -7,7 +7,6 @@ var sortedRepos;
 
 function Initialize() {
     divInner = document.getElementById("inner")
-    // sortedRepos = _.sortBy(repos, "Name"); // doesn't work in github?
     sortedRepos = _.sortBy(repos, "Name");
     CreateAllCards();
 }
