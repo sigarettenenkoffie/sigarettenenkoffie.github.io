@@ -46,5 +46,11 @@ var repos = [
         'Url': 'https://github.com/MoienTajik/AspNetCore-Developer-Roadmap',
         'Description': 'An answer to the question: "What should I learn next as an ASP.NET Core developer?"',
         'Tags': ["", "", ""]
+    },
+    {
+        'Name': 'OS-Tutorial',
+        'Url': 'https://github.com/cfenollosa/os-tutorial',
+        'Description': 'How to create an OS from scratch!"',
+        'Tags': ["", "", ""]
     }
 ]
