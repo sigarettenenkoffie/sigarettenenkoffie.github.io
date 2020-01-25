@@ -52,5 +52,11 @@ var repos = [
         'Url': 'https://github.com/cfenollosa/os-tutorial',
         'Description': 'How to create an OS from scratch!"',
         'Tags': ["", "", ""]
+    },
+    {
+        'Name': 'Cosmos',
+        'Url': 'https://github.com/cfenollosa/os-tutorial',
+        'Description': 'Cosmos is an operating system "construction kit".<br \>Build your own OS using managed languages such as C#, VB.NET, and more!"',
+        'Tags': ["", "", ""]
     }
 ]
