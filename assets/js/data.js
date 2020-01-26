@@ -82,5 +82,11 @@ var repos = [
         'Url': 'https://github.com/kamranahmedse/developer-roadmap',
         'Description': 'charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops',
         'Tags': ["Web", "Roadmap"]
+    },
+    {
+        'Name': 'C-Sharp-Algorithms',
+        'Url': 'https://github.com/aalhour/C-Sharp-Algorithms',
+        'Description': 'Plug-and-play class-library project of standard Data Structures and Algorithms in C# ',
+        'Tags': ["C#", "Algorithms", "Data Structures"]
     }
 ]
