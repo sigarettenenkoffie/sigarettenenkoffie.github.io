@@ -8,15 +8,11 @@ h1 {
     text-align: center;
 }
 
-
-
 .inner {
     margin: 0 auto;
-    padding-left: 4vw;
-    
+    padding-left: 4vw; 
     max-width: 1040px;
     width: 100%;
-    
 }
 
 .outer {
