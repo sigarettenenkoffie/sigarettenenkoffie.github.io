@@ -64,5 +64,11 @@ var repos = [
         'Url': 'https://github.com/jlord/git-it-electron',
         'Description': 'Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line',
         'Tags': ["Git", "Learn"]
+    },
+    {
+        'Name': '30 seconds of code',
+        'Url': 'https://github.com/30-seconds/30-seconds-of-code',
+        'Description': 'Short JavaScript code snippets for all your development needs',
+        'Tags': ["Javascript", "Snippets"]
     }
 ]
