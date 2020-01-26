@@ -84,9 +84,15 @@ var repos = [
         'Tags': ["Web", "Roadmap"]
     },
     {
-        'Name': 'C-Sharp-Algorithms',
+        'Name': 'C-# Algorithms',
         'Url': 'https://github.com/aalhour/C-Sharp-Algorithms',
         'Description': 'Plug-and-play class-library project of standard Data Structures and Algorithms in C# ',
+        'Tags': ["C#", "Algorithms", "Data Structures"]
+    },
+    {
+        'Name': 'Advanced Algorithms',
+        'Url': 'https://github.com/justcoding121/Advanced-Algorithms',
+        'Description': '100+ algorithms & data structures generically implemented in C#.',
         'Tags': ["C#", "Algorithms", "Data Structures"]
     }
 ]
