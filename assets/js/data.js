@@ -76,5 +76,11 @@ var repos = [
         'Url': 'https://github.com/wesbos/JavaScript30',
         'Description': 'Build 30 things in 30 days with 30 tutorials',
         'Tags': ["Javascript", "Tutorials"]
+    },
+    {
+        'Name': 'Web developer roadmap 2020',
+        'Url': 'https://github.com/kamranahmedse/developer-roadmap',
+        'Description': 'charts demonstrating the paths that you can take and the technologies that you would want to adopt in order to become a frontend, backend or a devops',
+        'Tags': ["Web", "Roadmap"]
     }
 ]
