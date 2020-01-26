@@ -12,11 +12,19 @@ h1 {
 
 .inner {
     margin: 0 auto;
+    padding-left: 4vw;
+    
     max-width: 1040px;
     width: 100%;
+    
 }
 
 .outer {
     position: relative;
     padding: 0 4vw;
+}
+
+.sidebar {
+    color: #a9aabc;
+    float: left;
 }

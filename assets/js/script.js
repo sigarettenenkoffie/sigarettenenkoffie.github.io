@@ -4,47 +4,75 @@ window.addEventListener('load', Initialize);
 var divInner;
 var columns = 3;
 var sortedRepos;
+var tags;
+var divTags;
+var btnList;
+var btnShowAll;
 
 function Initialize() {
     divInner = document.getElementById("inner")
+    divTags = document.getElementById("divTags");
+    btnShowAll = document.getElementById("btnShowAll");
+    btnShowAll.addEventListener('click', function() {CreateCardDecks(sortedRepos);});
     sortedRepos = _.sortBy(repos, "Name");
-    CreateAllCards();
+    tags = _.uniq(_.flatten(_.map(repos, 'Tags'))).sort();
+    CreateTagButtons();
+    CreateCardDecks(sortedRepos);
 }
 
-function CreateAllCards() {
+function CreateTagButtons() {
     let htmlContent = "";
+    tags.forEach(tag => {
+        htmlContent += `<button class="btn btn-secondary btn-small btn-block btnTag" style="font-size:smaller;">${tag}</button>`
+    });
+    divTags.innerHTML += htmlContent;
+    btnList = document.getElementsByClassName('btnTag');
+    for(let i=0;i<btnList.length; i++) {
+        btnList[i].addEventListener('click', function(){CreateCardDecksFilteredByTag(btnList[i].innerText);});
+    }
+}
 
-    for (let i = 0; i <= sortedRepos.length; i = i + columns) {
+function CreateCardDecksFilteredByTag(filterString) {
+    let filteredRepos = [];
+    sortedRepos.forEach(repo => {
+        if (_.includes(repo.Tags, filterString)) {
+            filteredRepos.push(repo);
+        }
+    });
+    CreateCardDecks(filteredRepos);
+}
 
+
+function CreateCardDecks(repos) {
+    let htmlContent = "";
+    for (let i = 0; i <= repos.length; i = i + columns) {
         htmlContent += '<div class="card-deck">'
-
         for (let j = i; j < i + columns; j++) {
-            if (sortedRepos[j] != null) {
-                htmlContent += CreateCard(sortedRepos[j])
+            if (repos[j] != null) {
+                htmlContent += CreateCard(repos[j])
             }
             else {
                 htmlContent += CreateEmptyCard();
-            }     
+            }
         }
         htmlContent += `</div>`
-        
     }
     divInner.innerHTML = htmlContent;
 }
 
 
-    function CreateCard(repo) {
-        return `
+function CreateCard(repo) {
+    return `
     <div class="card text-white bg-dark mb-3 text-center">
         <div class="card-body">
             <a class="btn btn-secondary card-title rounded-pill" href=${repo.Url}>${repo.Name}</a>
             <p class="card-text">${repo.Description}</p>
         </div>
     </div>`
-    }
+}
 
-    function CreateEmptyCard() {
-        return `
+function CreateEmptyCard() {
+    return `
         <div class="card text-white bg-dark mb-3 text-center">
         </div>`
-    }
+}
