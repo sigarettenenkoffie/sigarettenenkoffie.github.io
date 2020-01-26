@@ -63,12 +63,18 @@ var repos = [
         'Name': 'Git-It',
         'Url': 'https://github.com/jlord/git-it-electron',
         'Description': 'Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line',
-        'Tags': ["Git", "Learn"]
+        'Tags': ["Git", "Tutorials"]
     },
     {
         'Name': '30 seconds of code',
         'Url': 'https://github.com/30-seconds/30-seconds-of-code',
         'Description': 'Short JavaScript code snippets for all your development needs',
         'Tags': ["Javascript", "Snippets"]
+    },
+    {
+        'Name': 'JavaScript30',
+        'Url': 'https://github.com/wesbos/JavaScript30',
+        'Description': 'Build 30 things in 30 days with 30 tutorials',
+        'Tags': ["Javascript", "Tutorials"]
     }
 ]
