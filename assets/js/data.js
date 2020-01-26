@@ -9,7 +9,7 @@ var repos = [
         'Name': '30 seconds of C#',
         'Url': 'https://github.com/30-seconds/30-seconds-of-csharp',
         'Description': 'Short C# code snippets for all your development needs',
-        'Tags': ["C#", "snippets"]
+        'Tags': ["C#", "Snippets"]
     },
     {
         'Name': 'Design Patterns in C#',
@@ -50,13 +50,19 @@ var repos = [
     {
         'Name': 'OS-Tutorial',
         'Url': 'https://github.com/cfenollosa/os-tutorial',
-        'Description': 'How to create an OS from scratch!"',
+        'Description': 'How to create an OS from scratch!',
         'Tags': ["Operating Systems"]
     },
     {
         'Name': 'Cosmos',
         'Url': 'https://github.com/cfenollosa/os-tutorial',
-        'Description': 'Cosmos is an operating system "construction kit".<br \>Build your own OS using managed languages such as C#, VB.NET, and more!"',
-        'Tags': ["Operating Systems", "C#", "VB"]
+        'Description': 'Cosmos is an operating system "construction kit".<br \>Build your own OS using managed languages such as C#, VB.NET, and more!',
+        'Tags': ["Operating Systems", "C#"]
+    },
+    {
+        'Name': 'Git-It',
+        'Url': 'https://github.com/jlord/git-it-electron',
+        'Description': 'Git-it is a desktop (Mac, Windows and Linux) app that teaches you how to use Git and GitHub on the command line',
+        'Tags': ["Git", "Learn"]
     }
 ]
