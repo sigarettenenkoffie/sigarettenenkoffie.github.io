@@ -94,5 +94,11 @@ var repos = [
         'Url': 'https://github.com/justcoding121/Advanced-Algorithms',
         'Description': '100+ algorithms & data structures generically implemented in C#.',
         'Tags': ["C#", "Algorithms", "Data Structures"]
+    },
+    {
+        'Name': 'Lodash',
+        'Url': 'https://github.com/lodash/lodash',
+        'Description': 'A modern JavaScript utility library delivering modularity, performance, & extras.',
+        'Tags': ["Javascript", "Library"]
     }
 ]
