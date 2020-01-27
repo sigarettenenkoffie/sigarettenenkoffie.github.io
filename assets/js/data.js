@@ -112,5 +112,11 @@ var repos = [
         'Url': 'https://github.com/thangchung/awesome-dotnet-core',
         'Description': 'A collection of awesome .NET core libraries, tools, frameworks and software ',
         'Tags': [".NET Core", "Libraries", "Tools", "Frameworks", "Software"]
+    },
+    {
+        'Name': 'MVC.js',
+        'Url': 'https://github.com/taniarascia/mvc',
+        'Description': 'Simple todo MVC application in plain JavaScript',
+        'Tags': ["Javascript", "MVC", "Tutorial"]
     }
 ]
