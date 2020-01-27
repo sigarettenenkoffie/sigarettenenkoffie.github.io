@@ -100,5 +100,11 @@ var repos = [
         'Url': 'https://github.com/lodash/lodash',
         'Description': 'A modern JavaScript utility library delivering modularity, performance, & extras.',
         'Tags': ["Javascript", "Library"]
+    },
+    {
+        'Name': 'The Algorithms - Javascript',
+        'Url': 'https://github.com/TheAlgorithms/Javascript',
+        'Description': 'A repository for All algorithms implemented in Javascript (for educational purposes only)',
+        'Tags': ["Javascript", "Algorithms"]
     }
 ]
