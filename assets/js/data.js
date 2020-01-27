@@ -99,12 +99,18 @@ var repos = [
         'Name': 'Lodash',
         'Url': 'https://github.com/lodash/lodash',
         'Description': 'A modern JavaScript utility library delivering modularity, performance, & extras.',
-        'Tags': ["Javascript", "Library"]
+        'Tags': ["Javascript", "Libraries"]
     },
     {
         'Name': 'The Algorithms - Javascript',
         'Url': 'https://github.com/TheAlgorithms/Javascript',
         'Description': 'A repository for All algorithms implemented in Javascript (for educational purposes only)',
         'Tags': ["Javascript", "Algorithms"]
+    },
+    {
+        'Name': 'Awesome .NET Core',
+        'Url': 'https://github.com/thangchung/awesome-dotnet-core',
+        'Description': 'A collection of awesome .NET core libraries, tools, frameworks and software ',
+        'Tags': [".NET Core", "Libraries", "Tools", "Frameworks", "Software"]
     }
 ]
