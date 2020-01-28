@@ -118,5 +118,11 @@ var repos = [
         'Url': 'https://github.com/taniarascia/mvc',
         'Description': 'Simple todo MVC application in plain JavaScript',
         'Tags': ["Javascript", "MVC", "Tutorial"]
+    },
+    {
+        'Name': 'free-for.dev',
+        'Url': 'https://github.com/ripienaar/free-for-dev',
+        'Description': 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev',
+        'Tags': ["Software"]
     }
 ]
