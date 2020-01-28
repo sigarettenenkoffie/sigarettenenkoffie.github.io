@@ -5,6 +5,7 @@ var divInner;
 var columns = 3;
 var sortedRepos;
 var tags;
+var tagCount;
 var divTags;
 var btnList;
 var btnShowAll;
@@ -20,16 +21,27 @@ function Initialize() {
     CreateCardDecks(sortedRepos);
 }
 
+function CountReposInTag(tag) {
+    let count = 0;
+    repos.forEach(repo => {
+        if(_.includes(repo.Tags, tag)) {
+            count++;
+        }
+    });
+    return count;
+}
 
 function CreateTagButtons() {
     let htmlContent = "";
     tags.forEach(tag => {
-        htmlContent += `<button class="btn btn-secondary btn-small btn-block btnTag" style="font-size:smaller;">${tag}</button>`
+        tagCount = CountReposInTag(tag);
+        htmlContent += `<button class="btn btn-secondary btn-small btn-block btnTag" style="font-size:smaller;">${tag} (${tagCount})</button>`
     });
     divTags.innerHTML += htmlContent;
     btnList = document.getElementsByClassName('btnTag');
     for(let i=0;i<btnList.length; i++) {
-        btnList[i].addEventListener('click', function(){CreateCardDecksFilteredByTag(btnList[i].innerText);});
+        let filterString = _.first(_.split(btnList[i].innerText, ' ('));
+        btnList[i].addEventListener('click', function(){CreateCardDecksFilteredByTag(filterString);});
     }
 }
 
