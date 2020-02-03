@@ -142,6 +142,12 @@ var repos = [
         'Url': 'https://github.com/regexhq',
         'Description': 'Collaboration on a world-wide community-driven collection of RegExp patterns and tools that can make our life easier',
         'Tags': ["Regex"]
+    },
+    {
+        'Name': 'Learn Regex',
+        'Url': 'https://github.com/ziishaned/learn-regex',
+        'Description': 'Learn Regex The Easy Way',
+        'Tags': ["Regex"]
     }
 
 
