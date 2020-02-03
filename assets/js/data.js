@@ -130,6 +130,12 @@ var repos = [
         'Url': 'https://www.fluentcpp.com/',
         'Description': 'explorations in expressive code in C++',
         'Tags': ["C++"]
+    },
+    {
+        'Name': 'Awesome Falsehoods',
+        'Url': 'https://github.com/kdeldycke/awesome-falsehood',
+        'Description': 'A curated list of falsehoods programmers believe in.',
+        'Tags': ["Falsehoods"]
     }
 
 
