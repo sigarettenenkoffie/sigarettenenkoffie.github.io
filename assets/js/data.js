@@ -124,5 +124,13 @@ var repos = [
         'Url': 'https://github.com/ripienaar/free-for-dev',
         'Description': 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev',
         'Tags': ["Software"]
+    },
+    {
+        'Name': 'Fluent {C++}',
+        'Url': 'https://www.fluentcpp.com/',
+        'Description': 'explorations in expressive code in C++',
+        'Tags': ["C++"]
     }
+
+
 ]
