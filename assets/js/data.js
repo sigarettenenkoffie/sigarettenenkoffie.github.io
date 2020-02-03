@@ -136,6 +136,12 @@ var repos = [
         'Url': 'https://github.com/kdeldycke/awesome-falsehood',
         'Description': 'A curated list of falsehoods programmers believe in.',
         'Tags': ["Falsehoods"]
+    },
+    {
+        'Name': 'RegexHQ',
+        'Url': 'https://github.com/regexhq',
+        'Description': 'Collaboration on a world-wide community-driven collection of RegExp patterns and tools that can make our life easier',
+        'Tags': ["Regex"]
     }
 
 
