@@ -148,7 +148,13 @@ var repos = [
         'Url': 'https://github.com/ziishaned/learn-regex',
         'Description': 'Learn Regex The Easy Way',
         'Tags': ["Regex"]
-    }
+    },
+    {
+        'Name': 'iHateregex.io',
+        'Url': 'https://github.com/geongeorge/i-hate-regex',
+        'Description': 'a regex cheatsheet for the haters.<br \> don\'t just use; understand.',
+        'Tags': ["Regex", "Cheatsheet"]
+    },
 
 
 ]
